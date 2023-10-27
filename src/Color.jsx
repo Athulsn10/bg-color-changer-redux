@@ -8,7 +8,7 @@ function Color() {
   return (
     <>
       <div className="position-absolute top-50 start-50 translate-middle">
-        <h1 style={{ overflowY: "hidden" }}>Background Color Change</h1>
+        <h1 className="text-light" style={{ overflowY: "hidden" }} >Background Color Change</h1>
         <div className="d-flex justify-content-center ">
           <button onClick={()=>dispatch(setRed())} className="btn btn-light me-2">Red</button>
           <button onClick={()=>dispatch(setBlue())} className="btn btn-light me-2">Blue</button>

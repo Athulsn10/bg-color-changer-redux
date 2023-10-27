@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const bgSlice = createSlice({
   name: 'bgColor',
   initialState: {
-    color: 'red', 
+    color: document.body.style.backgroundColor = 'red' 
   },
   reducers: {
     setRed: (state) => {
